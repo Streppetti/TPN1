@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TP1-Nave</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
     <header>
         <div class="header__content">
             <div class="header__logo-content">
-                <a href="#"><img class="logo-desktop" src="./Media/Logo-Desktop.png"></a>
-                <a href="#"><img class="logo-movil" src="./Media/Logo-Movil.png"></a>
+                <a href="#"><img class="logo-desktop" src="./Media/Logo-Desktop.png" /></a>
+                <a href="#"><img class="logo-movil" src="./Media/Logo-Movil.png" /></a>
             </div>
             <nav class="header__list-content">
                 <ul class="header__list-box">
@@ -38,10 +38,13 @@
     <span class="divider-line-w"></span>
     <main class="main__content">
         <section class="main__carousel">
-            <img class="carousel_1" src="Media/Carrusel-1.png">
+            <img class="carousel_1" src="Media/Carrusel-1.png" />
             <div class="main__carousel-box">
                 <h1 class="carousel__title-one">Tu negocio vuela con Galicia</h1>
-                <h4 class="carousel__title-two">Para poder cobrar con Nave, abrite una cuenta en Galicia para poder acreditar tus ventas 💜</h4>
+                <h4 class="carousel__title-two">
+                    Para poder cobrar con Nave, abrite una cuenta en Galicia para poder
+                    acreditar tus ventas 💜
+                </h4>
                 <div class="carousel__box-button">
                     <a href="#" class="main__carousel-button-one">Abrir cuenta de Individuos</a>
                     <a href="#" class="main__carousel-button-two">Abrir cuenta PyME</a>
@@ -50,25 +53,84 @@
         </section>
         <div class="main__carousel-indicator">
             <i class="bi bi-chevron-left"></i>
-            <span class="circle"></span>
-            <span class="circle"></span>
+            <span class="circle1"></span>
+            <span class="circle2"></span>
             <i class="bi bi-chevron-right"></i>
         </div>
         <section class="main__welcome">
-            <div>
-                <h2></h2>
+            <div class="welcome__title">
+                <h2>Te damos la bienvenida al vuelo de tu negocio</h2>
             </div>
-            <div>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+            <div class="welcome__list">
+                <title>Te damos la bienvenida al vuelo de tu negocio</title>
+                <ul class="welcome__list-items">
+                    <li>
+                        <img class="welcome__list-items-acreditar" src="./Media/acreditar.jpg" />
+                        <h2>Elegí cuando acreditar tus ventas</h2>
+                        <p>Lo hacés desde la plataforma Nave en pocos clicks.</p>
+                    </li>
+                    <li>
+                        <img class="welcome__list-items-ganancia" src="./Media/ganancia.jpg" />
+                        <h2>Ganás más con costos bajos</h2>
+                        <p>Los costos por cobro son bajos para que tu negocio crezca.</p>
+                    </li>
+                    <li>
+                        <img class="welcome__list-items-venta" src="./Media/venta.jpg" />
+                        <h2>Vendés más con promos a tu medida</h2>
+                        <p>Ofrecé nuestras promos cuando pagan en tu negocio.</p>
+                    </li>
                 </ul>
             </div>
-            <div>
-                <h2></h2>
-                <span></span>
-                <a></a>
+            <div class="welcome__footer">
+                <div class="welcome__footer-content">
+                    <h2 class="welcome__footer-title">Historias que vuelan</h2>
+                    <span class="welcome__footer-subtitle">
+                        Conocé a los comercios que eligen Nave todos los días 💜
+                    </span>
+                </div>
+                <a class="welcome__footer-button" href="#">Conocer más</a>
+            </div>
+        </section>
+        <section class="main__pay">
+            <div class="main__pay-header">
+                <h2 class="main__pay-title">Encontrá el medio de cobro ideal</h2>
+                <p class="main__pay-subtitle">Elegí las opciones que mejor se ajustan a tu negocio.</p>
+            </div>
+            <div class="main__pay-box">
+                <ul class="pay__content">
+                    <li class="pay__content-list-one">
+                        <div class="pay__list-one">
+                            <h2>QR</h2>
+                            <p>Ideal para cobrar en tu local o desde donde prefieras sin manejar efectivo.</p>
+                            <a class="pay__item-one" href="#">Conocer más</a>
+                        </div>
+                        <img class="pay__qr" src="./Media/qr.png">
+                    </li>
+                    <li class="pay__content-list-two">
+                        <div class="pay__list-two">
+                            <h2>Terminal Nave Point</h2>
+                            <p>Aceptá pagos con tarjetas de débito y crédito en tu local de forma rápida y segura.</p>
+                            <a class="pay__item-two" href="#">Conocer más</a>
+                        </div>
+                        <img class="pay__terminal" src="./Media/terminal.png">
+                    </li>
+                    <li class="pay__content-list-three">
+                        <div class="pay__list-three">
+                            <h2>Link de pago</h2>
+                            <p>La forma más fácil de vender por chat y redes sociales. Compartí el link y cobrá desde cualquier lugar.</p>
+                            <a class="pay__item-three" href="#">Conocer más</a>
+                        </div>
+                        <img class="pay__link" src="Media/link.png">
+                    </li>
+                    <li class="pay__content-list-four">
+                        <div class="pay__list-four">
+                            <h2>Tienda online</h2>
+                            <p>Ofrecé una experiencia de pago sin fricciones aceptando pagos con todos los medios de cobro.</p>
+                            <a class="pay__item-four" href="#">Conocer más</a>
+                        </div>
+                        <img class="pay__tienda" src="./Media/tienda.png">
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
