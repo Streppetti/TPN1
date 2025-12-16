@@ -51,13 +51,14 @@ ol {
 }
 
 /* Header y Carrusel */
-
+/*  Header */
 header {
   width: 100%;
   background-color: var(--color__bg-main);
   padding: 10px;
 }
 
+/* Contenido de todo el Header */
 .header__content {
   display: flex;
   flex-direction: row;
@@ -69,6 +70,7 @@ header {
   margin: 0 auto;
 }
 
+/* Logo del Header */
 .logo-desktop {
   display: block;
   max-width: 100%;
@@ -79,6 +81,7 @@ header {
   display: none;
 }
 
+/* Barra de navegacion del header */
 .header__list-content {
   display: flex;
   align-content: center;
@@ -86,10 +89,11 @@ header {
   gap: 12px;
 }
 
+/* Lista de la barra de navegacion */
 .header__list-box {
   display: flex;
   margin: 0px;
-  padding: 10px;
+  padding: 0px;
 }
 
 .header__list-box a {
@@ -98,7 +102,7 @@ header {
   font-size: 14px;
   color: var(--color__font-nav);
   font-weight: 600;
-  padding: 6px 24px;
+  padding: 6px 10px;
 }
 
 .header__list-box a:hover {
@@ -106,12 +110,14 @@ header {
   border-radius: 50px;
 }
 
+/* Botones del header */
 .header__button-box {
   display: flex;
   gap: 20px;
   align-content: center;
 }
 
+/* Linea Vertical */
 .divider-line-h {
   display: block;
   width: 1px;
@@ -119,6 +125,7 @@ header {
   background-color: #bebebe;
 }
 
+/* Boton: Espacio Nave */
 .header__button-one {
   text-decoration: none;
   font-family: "Inter", Arial, Helvetica, sans-serif;
@@ -156,6 +163,7 @@ header {
   border: 1px solid var(--color__violet-800);
 }
 
+/* Boton: Entrar a Nave */
 .header__button-two {
   text-decoration: none;
   font-family: "Inter", Arial, Helvetica, sans-serif;
@@ -178,6 +186,7 @@ header {
   border: 1px solid var(--color__violet-800);
 }
 
+/* Linea horizontal */
 .divider-line-w {
   display: block;
   width: 100%;
@@ -185,6 +194,7 @@ header {
   background-color: #bebebe;
 }
 
+/* Caja del Contenido Principal */
 .main__content {
   width: 100%;
   max-width: 1022px;
@@ -192,11 +202,14 @@ header {
   padding: 20px 20px;
 }
 
+/* Contenedor del carrusel de fotos */
 .main__carousel {
   display: flex;
   position: relative;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
+/* Caja dentro del carrusel */
 .main__carousel-box {
   position: absolute;
   z-index: 2;
@@ -211,6 +224,7 @@ header {
   padding-left: 50px;
 }
 
+/* Imagen 1 */
 .carousel_1 {
   height: 400px;
   width: 100%;
@@ -221,32 +235,7 @@ header {
   padding: 20px 20px;
 }
 
-.main__carousel {
-  display: flex;
-  position: relative;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-}
-
-.main__carousel-box {
-  position: absolute;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  column-gap: 24px;
-  height: 420px;
-  max-width: 550px;
-  font-size: 16px;
-  gap: 24px;
-  padding-left: 50px;
-}
-
-.carousel_1 {
-  height: 400px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
+/* Titulo dentro del carrusel */
 .carousel__title-one {
   font-size: 48px;
   color: white;
@@ -254,6 +243,7 @@ header {
   font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
+/* Subtitulo dentro del carrusel */
 .carousel__title-two {
   font-size: 24px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
@@ -261,6 +251,7 @@ header {
   font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
+/* Boton uno del carrusel */
 .main__carousel-button-one {
   text-decoration: none;
   color: white;
@@ -274,6 +265,7 @@ header {
   background-color: var(--color__violet-900);
 }
 
+/* Boton dos del carrusel */
 .main__carousel-button-two {
   text-decoration: none;
   color: var(--color__violet-600);
@@ -284,9 +276,10 @@ header {
   font-weight: bold;
 }
 
+/* Pie del carrusel (Icons/Buttons) */
 .main__carousel-indicator {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   flex-direction: row;
   gap: 24px;
@@ -294,6 +287,7 @@ header {
   height: 24px;
 }
 
+/* Circulo indicador de imagen (No seleccionada) */
 .circle1 {
   display: inline-block;
   width: 12px;
@@ -304,6 +298,7 @@ header {
   box-shadow: 0 0 0 1px gray;
 }
 
+/* Circulo indicador de imagen (Imagen Actual) */
 .circle2 {
   display: inline-block;
   width: 18px;
@@ -314,13 +309,16 @@ header {
   box-shadow: 0 0 0 1px var(--color__circle-one);
 }
 
+/* Contenedor del bloque de Bienvenida */
 .main__welcome {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  gap: 32px;
 }
 
+/* Caja del titulo */
 .welcome__title {
   display: flex;
   justify-content: center;
@@ -332,6 +330,7 @@ header {
   width: 100%;
 }
 
+/* Caja de lista */
 .welcome__list {
   display: flex;
   flex-wrap: wrap;
@@ -340,147 +339,7 @@ header {
   padding: 0;
 }
 
-.welcome__list-items {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  height: auto;
-  margin-top: 12px;
-  width: 100%;
-  padding: 0;
-  background-color: white;
-  box-sizing: border-box;
-  padding-left: 0;
-}
-
-.welcome__list-items li {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  border-radius: 12px;
-  padding: 24px;
-  gap: 32px;
-  flex: 1;
-}
-
-.welcome__list-items-acreditar {
-  width: 62px;
-  display: flex;
-  align-content: flex-start;
-}
-
-.welcome__list-items-ganancia {
-  width: 62px;
-  display: flex;
-  align-content: flex-start;
-}
-
-.welcome__list-items-venta {
-  width: 62px;
-  display: flex;
-  align-content: flex-start;
-}
-
-.welcome__footer {
-  width: 976px;
-  display: flex;
-  flex-direction: row;
-  padding: 32px;
-  background-color: var(--color__violet-600);
-}
-
-.welcome__footer-content {
-  display: flex;
-  flex-direction: column;
-  width: 670px;
-  gap: 20px;
-}
-
-.welcome__footer-title {
-  color: white;
-}
-
-.welcome__footer-subtitle {
-  color: white;
-}
-
-.welcome__footer-button {
-  text-decoration: none;
-  color: var(--color__violet-700);
-  width: 180px;
-  height: 50px;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50px;
-  padding: 10px 32px;
-  font-weight: 600px;
-}
-.main__carousel-button-two:hover {
-  background-color: var(--color__violet-100);
-  border: 1px solid var(--color__violet-800);
-  color: var(--color__violet-800);
-}
-
-.main__carousel-indicator {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 24px;
-  margin: 22px 0px;
-  height: 24px;
-}
-
-.circle1 {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: gray;
-  border: 2px solid gray;
-  box-shadow: 0 0 0 1px gray;
-}
-
-.circle2 {
-  display: inline-block;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background-color: var(--color__violet-600);
-  border: 2px solid var(--color__bg-main);
-  box-shadow: 0 0 0 1px var(--color__circle-one);
-}
-
-.main__welcome {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  gap: 32px;
-}
-
-.welcome__title {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  font-size: 25px;
-  font-weight: 700;
-  margin: 8px 0;
-  text-align: center;
-  width: 100%;
-}
-
-.welcome__list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  gap: 6px;
-  padding: 0;
-}
-
+/* Lista */
 .welcome__list-items {
   display: flex;
   flex-direction: row;
@@ -506,6 +365,7 @@ header {
   font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
+/* Items de Lista */
 .welcome__list-items-acreditar {
   width: 62px;
   display: flex;
@@ -524,6 +384,7 @@ header {
   align-content: flex-start;
 }
 
+/* Capsula final de contenido de Bienvenida */
 .welcome__footer {
   width: 950px;
   display: flex;
@@ -535,6 +396,7 @@ header {
   font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
+/* Contenedor de Capsula */
 .welcome__footer-content {
   display: flex;
   flex-direction: column;
@@ -543,16 +405,19 @@ header {
   padding-left: 30px;
 }
 
+/* Titulo de la Capsula */
 .welcome__footer-title {
   color: white;
   font-size: 30px;
 }
 
+/* Subtitulo de la Capsula */
 .welcome__footer-subtitle {
   color: white;
   font-size: 18px;
 }
 
+/* Boton de la capsula */
 .welcome__footer-button {
   text-decoration: none;
   color: var(--color__violet-700);
@@ -573,6 +438,7 @@ header {
   color: var(--color__violet-100);
 }
 
+/* Contenedor de Medios de Cobro */
 .main__pay {
   display: block;
   padding-top: 40px;
@@ -580,12 +446,14 @@ header {
   width: 100%;
 }
 
+/* Contenedor de los titulos de la seccion */
 .main__pay-header {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
+/* Caja del titulo */
 .main__pay-title {
   font-size: 40px;
   font-weight: 700;
@@ -593,16 +461,19 @@ header {
   justify-content: center;
 }
 
+/* Caja de subtitulo */
 .main__pay-subtitle {
   font-size: 16px;
   display: flex;
   justify-content: center;
 }
 
+/* Contenedor de las listas */
 .main__pay-box {
   display: flex;
 }
 
+/* Caja de las listas */
 .pay__content {
   display: flex;
   flex-direction: column;
@@ -612,12 +483,14 @@ header {
   width: 100%;
 }
 
+/* Caja Lista 1 */
 .pay__content-list-one {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
+/* Lista 1 */
 .pay__list-one {
   display: flex;
   flex-direction: column;
@@ -627,6 +500,7 @@ header {
   gap: 32px;
 }
 
+/* Item 1 */
 .pay__item-one {
   text-decoration: none;
   font-size: 16px;
@@ -646,18 +520,21 @@ header {
   background-color: var(--color__violet-950);
 }
 
+/* Imagen 1 */
 .pay__qr {
   width: 511px;
   display: flex;
   align-items: flex-end;
 }
 
+/* Caja lista 2 */
 .pay__content-list-two {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
 }
 
+/* Lista 2 */
 .pay__list-two {
   display: flex;
   flex-direction: column;
@@ -667,6 +544,7 @@ header {
   gap: 32px;
 }
 
+/* Item 2 */
 .pay__item-two {
   text-decoration: none;
   font-size: 16px;
@@ -686,16 +564,19 @@ header {
   background-color: var(--color__violet-950);
 }
 
+/* Imagen 2 */
 .pay__terminal {
   width: 511px;
 }
 
+/* Contenedor lista 3 */
 .pay__content-list-three {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
+/* Lista 3 */
 .pay__list-three {
   display: flex;
   flex-direction: column;
@@ -705,6 +586,7 @@ header {
   gap: 32px;
 }
 
+/* Item 3 */
 .pay__item-three {
   text-decoration: none;
   font-size: 16px;
@@ -724,16 +606,19 @@ header {
   background-color: var(--color__violet-950);
 }
 
+/* Imagen 3 */
 .pay__link {
   width: 511px;
 }
 
+/* Contenedor lista 4 */
 .pay__content-list-four {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
 }
 
+/* Lista 4 */
 .pay__list-four {
   display: flex;
   flex-direction: column;
@@ -743,6 +628,7 @@ header {
   gap: 32px;
 }
 
+/* Item 4 */
 .pay__item-four {
   text-decoration: none;
   font-size: 16px;
@@ -762,6 +648,7 @@ header {
   background-color: var(--color__violet-950);
 }
 
+/* Imagen 4 */
 .pay__tienda {
   width: 511px;
 }
