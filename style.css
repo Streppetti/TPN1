@@ -84,7 +84,7 @@ header {
 /* Barra de navegacion del header */
 .header__list-content {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   gap: 12px;
 }
