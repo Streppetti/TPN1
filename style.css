@@ -17,6 +17,9 @@
 
   --color__font-nav: #2b2b2b;
   /* Font-Nav */
+
+  --color__violet-750: #5c2d91;
+
   --color__violet-800: #4e2855;
 
   --color__violet-900: #4d244d;
@@ -50,64 +53,63 @@ ol {
 /* Header y Carrusel */
 
 header {
-    width: 100%;
-    background-color: var(--color__bg-main);
-    padding: 10px;
+  width: 100%;
+  background-color: var(--color__bg-main);
+  padding: 10px;
 }
 
 .header__content {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    width: 100%;
-    max-width: 1022px;
-    margin: 0 auto;
-
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  width: 100%;
+  max-width: 1022px;
+  margin: 0 auto;
 }
 
 .logo-desktop {
-    display: block;
-    max-width: 100%;
-    width: 140px;
+  display: block;
+  max-width: 100%;
+  width: 140px;
 }
 
 .logo-movil {
-    display: none;
+  display: none;
 }
 
 .header__list-content {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    gap: 12px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 12px;
 }
 
 .header__list-box {
-    display: flex;
-    margin: 0px;
-    padding: 10px;
+  display: flex;
+  margin: 0px;
+  padding: 10px;
 }
 
 .header__list-box a {
-    text-decoration: none;
-    font-family: "Inter", Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: var(--color__font-nav);
-    font-weight: 600;
-    padding: 6px 24px;
+  text-decoration: none;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: var(--color__font-nav);
+  font-weight: 600;
+  padding: 6px 24px;
 }
 
 .header__list-box a:hover {
-    background-color: var(--color__violet-100);
-    border-radius: 50px;
+  background-color: var(--color__violet-100);
+  border-radius: 50px;
 }
 
 .header__button-box {
-    display: flex;
-    gap: 20px;
-    align-content: center;
+  display: flex;
+  gap: 20px;
+  align-content: center;
 }
 
 .divider-line-h {
@@ -292,7 +294,7 @@ header {
   height: 24px;
 }
 
-.circle1{
+.circle1 {
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -302,7 +304,7 @@ header {
   box-shadow: 0 0 0 1px gray;
 }
 
-.circle2{
+.circle2 {
   display: inline-block;
   width: 18px;
   height: 18px;
@@ -762,4 +764,137 @@ header {
 
 .pay__tienda {
   width: 511px;
+}
+
+/* Footer */
+.main__footer {
+  width: 100%;
+}
+
+/* Contenito de todo el footer */
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 105px;
+  padding: 0px 0px 32px;
+}
+
+/* Logo del Footer */
+.footer__logo {
+  width: 46px;
+  display: flex;
+  align-self: flex-start;
+  margin-bottom: 12px;
+}
+
+/* Todos los bloques de listas */
+.footer__list-mainbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+
+.footer__list-mainbox a:hover {
+  color: var(--color__violet-750);
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+/* Bloque: Nave */
+.footer__list-mainbox-nave {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__list-mainbox-nave li {
+  margin: 8px 0;
+}
+
+.footer__list-mainbox-nave > span {
+  font-weight: 700;
+}
+
+.footer__items-nave a {
+  text-decoration: none;
+  color: #121212;
+}
+
+/* Bloque: Medios */
+.footer__list-mainbox-medios {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__list-mainbox-medios li {
+  margin: 8px 0;
+}
+
+.footer__list-mainbox-medios > span {
+  font-weight: 700;
+}
+
+.footer__items-medios a {
+  text-decoration: none;
+  color: #121212;
+}
+
+/* Bloque: Beneficios */
+.footer__list-mainbox-beneficios {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__list-mainbox-beneficios li {
+  margin: 8px 0;
+}
+
+.footer__list-mainbox-beneficios > span {
+  font-weight: 700;
+}
+
+.footer__items-beneficios a {
+  text-decoration: none;
+  color: #121212;
+}
+
+/* Bloque: Info */
+.footer__list-mainbox-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__list-mainbox-info li {
+  margin: 8px 0;
+}
+
+.footer__list-mainbox-info > span {
+  font-weight: 700;
+}
+
+.footer__items-info a {
+  text-decoration: none;
+  color: #121212;
+}
+
+.footer__contact {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer__contact > span {
+  font-weight: 700;
+}
+
+.footer__contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__contact-list a {
+  color: var(--color__violet-750);
 }
