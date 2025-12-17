@@ -468,6 +468,7 @@ header {
     width: 100%;
 }
 
+
 /* Contenedor de los titulos de la seccion */
 .main__pay-header {
     display: flex;
@@ -505,15 +506,16 @@ header {
     width: 100%;
 }
 
-/* Caja Lista 1 */
+
+
+
 .pay__content-list-one {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-/* Lista 1 */
-.pay__list-one {
+.pay__list{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -523,8 +525,7 @@ header {
     gap: 32px;
 }
 
-/* Item 1 */
-.pay__item-one {
+.pay__item{
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
@@ -539,61 +540,21 @@ header {
     background-color: var(--color__violet-600);
 }
 
-.pay__item-one:hover {
+.pay__item:hover {
     background-color: var(--color__violet-950);
 }
 
-/* Imagen 1 */
-.pay__qr {
+.pay__img{
     max-width: 511px;
-    width: auto;
-    display: flex;
-    align-items: flex-end;
-}
-
+    width: 100%;
+    height: auto;
+}   
 
 /* Caja lista 2 */
 .pay__content-list-two {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-}
-
-/* Lista 2 */
-.pay__list-two {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    max-width: 511px;
-    width: auto;
-    gap: 32px;
-}
-
-/* Item 2 */
-.pay__item-two {
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    width: 160px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    cursor: pointer;
-    color: white;
-    background-color: var(--color__violet-600);
-}
-
-.pay__item-two:hover {
-    background-color: var(--color__violet-950);
-}
-
-/* Imagen 2 */
-.pay__terminal {
-    max-width: 511px;
-    width: 100%;
 }
 
 /* Contenedor lista 3 */
@@ -603,85 +564,11 @@ header {
     justify-content: space-between;
 }
 
-/* Lista 3 */
-.pay__list-three {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    max-width: 511px;
-    width: 100%;
-    gap: 32px;
-}
-
-/* Item 3 */
-.pay__item-three {
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    width: 160px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    cursor: pointer;
-    color: white;
-    background-color: var(--color__violet-600);
-}
-
-.pay__item-three:hover {
-    background-color: var(--color__violet-950);
-}
-
-/* Imagen 3 */
-.pay__link {
-    max-width: 511px;
-    width: 100%;
-}
-
 /* Contenedor lista 4 */
 .pay__content-list-four {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-}
-
-/* Lista 4 */
-.pay__list-four {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    max-width: 511px;
-    width: 100%;
-    gap: 32px;
-}
-
-/* Item 4 */
-.pay__item-four {
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    width: 160px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    cursor: pointer;
-    color: white;
-    background-color: var(--color__violet-600);
-}
-
-.pay__item-four:hover {
-    background-color: var(--color__violet-950);
-}
-
-/* Imagen 4 */
-.pay__tienda {
-    max-width: 511px;
-    width: 100%;
 }
 
 /* Footer */
@@ -721,7 +608,7 @@ header {
 }
 
 /* Bloque: Nave */
-.footer__list-mainbox-nave {
+.footer__list-box{
     display: flex;
     flex-direction: column;
 }
@@ -734,17 +621,12 @@ header {
     font-weight: 700;
 }
 
-.footer__items-nave a {
+.footer__items a {
     text-decoration: none;
     color: #121212;
 }
 
 /* Bloque: Medios */
-.footer__list-mainbox-medios {
-    display: flex;
-    flex-direction: column;
-}
-
 .footer__list-mainbox-medios li {
     margin: 8px 0;
 }
@@ -753,17 +635,7 @@ header {
     font-weight: 700;
 }
 
-.footer__items-medios a {
-    text-decoration: none;
-    color: #121212;
-}
-
 /* Bloque: Beneficios */
-.footer__list-mainbox-beneficios {
-    display: flex;
-    flex-direction: column;
-}
-
 .footer__list-mainbox-beneficios li {
     margin: 8px 0;
 }
@@ -772,28 +644,14 @@ header {
     font-weight: 700;
 }
 
-.footer__items-beneficios a {
-    text-decoration: none;
-    color: #121212;
-}
 
 /* Bloque: Info */
-.footer__list-mainbox-info {
-    display: flex;
-    flex-direction: column;
-}
-
 .footer__list-mainbox-info li {
     margin: 8px 0;
 }
 
 .footer__list-mainbox-info>span {
     font-weight: 700;
-}
-
-.footer__items-info a {
-    text-decoration: none;
-    color: #121212;
 }
 
 .footer__contact {
@@ -1007,6 +865,4 @@ header {
         flex-direction: column;
         width: calc(50% - 10px);
     }
-
-   
 }
