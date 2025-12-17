@@ -247,6 +247,8 @@ header {
     max-width: 1022px;
     margin: 0 auto;
     padding: 20px 20px;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* Titulo dentro del carrusel */
@@ -873,7 +875,7 @@ header {
 
     .carousel_1 {
         width: 100%;
-        max-width: 540px;
+        max-width: 768px;
         max-height: 194px;
     }
 
