@@ -22,6 +22,10 @@
 
     --color__violet-800: #4e2855;
 
+    --color__violet-750: #5c2d91;
+
+    --color__violet-800: #4e2855;
+
     --color__violet-900: #4d244d;
 
     --color__violet-950: #360c72;
@@ -192,7 +196,7 @@ header {
     border: 1px solid var(--color__violet-800);
 }
 
-.header__content i{
+.header__content i {
     display: none;
 }
 
@@ -286,7 +290,7 @@ header {
     font-weight: bold;
 }
 
-.main__carousel-button-two:hover{
+.main__carousel-button-two:hover {
     background-color: var(--color__violet-100);
     color: var(--color__violet-950);
 }
@@ -813,24 +817,24 @@ header {
 }
 
 @media screen and (max-width: 1024px) {
-    .logo-desktop{
+    .logo-desktop {
         display: none;
     }
 
-    .header__list-content{
+    .header__list-content {
         display: none;
     }
 
-    .header__button-box{
+    .header__button-box {
         display: none;
     }
 
-    .divider-line-h{
+    .divider-line-h {
         display: none;
     }
 
 
-    .header__content{
+    .header__content {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -839,7 +843,7 @@ header {
         flex-wrap: nowrap;
     }
 
-    .header__content i{
+    .header__content i {
         display: block;
         order: -1;
         position: absolute;
@@ -848,7 +852,7 @@ header {
         height: auto;
     }
 
-    .logo-movil{
+    .logo-movil {
         display: block;
         width: 42px;
         height: auto;
