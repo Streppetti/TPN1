@@ -63,6 +63,6 @@ Estructura del Proyecto
 El objetivo de esta estructura fue minimizar tantos elementos a definir estilos y trabajarlos por “cajas” para facilitar el orden de la web.
 
 
-###Live Preview - GitHub Page
+### Live Preview - GitHub Page
 
 > [TP1-Nave](https://streppetti.github.io/TPN1/)
