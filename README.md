@@ -60,7 +60,7 @@ Estructura del Proyecto
 	- Pay (Bloques con los medios de pagos)
 - footer	(Links externos y contacto)
 
-###### El objetivo de esta estructura fue minimizar tantos elementos a definir estilos y trabajarlos por “cajas” para facilitar el orden de la web.
+##### El objetivo de esta estructura fue minimizar tantos elementos a definir estilos y trabajarlos por “cajas” para facilitar el orden de la web.
 
 ---
 
