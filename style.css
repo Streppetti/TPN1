@@ -489,13 +489,6 @@ header {
     width: 100%;
 }
 
-
-.pay__content-list-one {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .pay__list{
     display: flex;
     flex-direction: column;
@@ -530,26 +523,19 @@ header {
     height: auto;
 }   
 
-/* Caja lista 2 */
-.pay__content-list-two {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-}
-
-/* Contenedor lista 3 */
-.pay__content-list-three {
+.pay__content-list-normal {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-/* Contenedor lista 4 */
-.pay__content-list-four {
+
+.pay__content-list-reverse {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
 }
+
 
 /* Footer */
 .main__footer {
@@ -812,6 +798,7 @@ header {
         align-items: center;
         width: 100%;
     }
+
 
     .main__footer{
         margin-top: 50px;
