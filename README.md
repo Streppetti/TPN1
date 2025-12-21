@@ -56,12 +56,13 @@ Estructura del Proyecto
 - header: Barra de Navegación
 - main: Esta compuesto por sections
 	- Carousel (Carrusel de Fotos)
-	- Welcome (Bloque de Informacion principal de Biernvenida)
+	- Welcome (Bloque de Informacion principal de Bienvenida)
 	- Pay (Bloques con los medios de pagos)
-- footer	(Links externes y contacto)
+- footer	(Links externos y contacto)
 
-El objetivo de esta estructura fue minimizar tantos elementos a definir estilos y trabajarlos por “cajas” para facilitar el orden de la web.
+###### El objetivo de esta estructura fue minimizar tantos elementos a definir estilos y trabajarlos por “cajas” para facilitar el orden de la web.
 
+---
 
 ### Live Preview - GitHub Page
 
