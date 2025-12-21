@@ -36,7 +36,9 @@
     --color__font-shadow: #daaa74;
     /* Sombreado Font-Nav */
 
-    --color__bg-main: #ffffff;
+    --color__bg-box: #fff;
+
+    --color__bg-main: #fcfbff;
     /* Background Color */
 
     --color__circle-one: #9d9d9e;
@@ -52,13 +54,14 @@ ol {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: transparent;
 }
 
 /* Header y Carrusel */
 /*  Header */
 header {
     width: 100%;
-    background-color: var(--color__bg-main);
+    background-color: var(--color__bg-box);
     padding: 10px;
     display: flex;
     align-content: center;
@@ -113,6 +116,7 @@ header {
     color: var(--color__font-nav);
     font-weight: 600;
     padding: 6px 10px;
+    
 }
 
 .header__list-box a:hover {
@@ -130,27 +134,14 @@ header {
 /* Linea Vertical */
 .divider-line-h {
     display: block;
+    align-self: center;
     width: 1px;
-    height: 40px;
+    height: 24px;
     background-color: #bebebe;
 }
 
 /* Boton: Espacio Nave */
 .header__button-one {
-    text-decoration: none;
-    font-family: "Inter", Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    width: 160px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    cursor: pointer;
-    color: var(--color__violet-700);
-    background-color: transparent;
-    border: 1px solid var(--color__violet-700);
     text-decoration: none;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -234,19 +225,18 @@ header {
     height: 420px;
     max-width: 550px;
     font-size: 16px;
-    gap: 24px;
+    gap: 40px;
     padding-left: 50px;
 }
 
 /* Imagen 1 */
 .carousel_1 {
     height: 400px;
-    width: 100%;
     box-sizing: border-box;
+    border-radius: 50px;
     width: 100%;
     max-width: 1022px;
     margin: 0 auto;
-    padding: 20px 20px;
     object-fit: cover;
     object-position: center;
 }
@@ -378,30 +368,19 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    border-radius: 12px;
     padding: 24px;
     gap: 32px;
     flex: 1;
     font-family: "Inter", Arial, Helvetica, sans-serif;
+    background-color: var(--color__bg-box);
 }
 
 /* Items de Lista */
-.welcome__list-items-acreditar {
+.welcome__list-items-forOne {
     width: 62px;
     display: flex;
     align-content: flex-start;
-}
-
-.welcome__list-items-ganancia {
-    width: 62px;
-    display: flex;
-    align-content: flex-start;
-}
-
-.welcome__list-items-venta {
-    width: 62px;
-    display: flex;
-    align-content: flex-start;
+    border-radius: 12px;
 }
 
 /* Capsula final de contenido de Bienvenida */
@@ -411,6 +390,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     padding: 32px;
     background-color: var(--color__violet-950);
     border-radius: 40px;
@@ -474,6 +454,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 /* Caja del titulo */
@@ -494,6 +475,8 @@ header {
 /* Contenedor de las listas */
 .main__pay-box {
     display: flex;
+    width: 100%;
+    background-color: var(--color__bg-box);
 }
 
 /* Caja de las listas */
@@ -507,8 +490,6 @@ header {
 }
 
 
-
-
 .pay__content-list-one {
     display: flex;
     flex-direction: row;
@@ -520,7 +501,6 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    max-width: 511px;
     width: 100%;
     gap: 32px;
 }
@@ -574,14 +554,17 @@ header {
 /* Footer */
 .main__footer {
     width: 100%;
+    background-color: var(--color__bg-box);
 }
 
 /* Contenito de todo el footer */
 .footer__content {
     display: flex;
     flex-direction: column;
-    margin: 0px 105px;
-    padding: 0px 0px 32px;
+    width: 100%;
+    max-width: 1022px; 
+    margin: 0 auto;     
+    padding: 32px 20px;
 }
 
 /* Logo del Footer */
@@ -719,12 +702,6 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-    *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-
     .main__carousel {
         display: block;
         flex-direction: column;
@@ -832,6 +809,8 @@ header {
     .pay__content li{
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
     }
 
     .main__footer{
