@@ -39,9 +39,13 @@ HTML —> CSS (Lo realice por las secciones previamente definida).
 Estructura del Proyecto
 
 /index.html
+
 /style.css
+
 /media/               → Imágenes utilizadas
+
 /readme.md
+
 /planificación/
   └── croquis-nave.excalidraw
 
