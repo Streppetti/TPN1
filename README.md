@@ -46,7 +46,7 @@ Estructura del Proyecto
 
 ---readme.md
 
----croquis-nave.excalidraw
+---plánificacion (croquis-nave.excalidraw) `En este se encuentra el croquis de la web`
 
 ---
 ##### Estructura del HTML
