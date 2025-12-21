@@ -47,7 +47,7 @@ Estructura del Proyecto
 /readme.md
 
 /planificación/
-  └── croquis-nave.excalidraw
+  ── croquis-nave.excalidraw
 
 
 ---
